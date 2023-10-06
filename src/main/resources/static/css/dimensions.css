@@ -29,7 +29,8 @@
     --top-header: 1.5rem;
     --top-label-hw-info: 0.562rem;
     --top-card-body-squares-grid: 0.813rem;
-    --top-info-label: 4.188rem;
+    /*--top-info-label: 4.188rem;*/
+    --top-info-label: 4rem;
     --top-inner-dot: 0.375rem;
     --top-detailed-hw-info-div: 1.168rem;
     --top-controls-img: 0.75rem;

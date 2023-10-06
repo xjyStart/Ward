@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <!-- project options -->
     <modelVersion>4.0.0</modelVersion>
     <groupId>dev.leons</groupId>
@@ -21,7 +21,6 @@
     <properties>
         <oshiVersion>6.4.6</oshiVersion>
         <jnaVersion>5.13.0</jnaVersion>
-        <lombokVersion>1.18.30</lombokVersion>
         <lombokVersion>1.18.26</lombokVersion>
         <ini4jVersion>0.5.4</ini4jVersion>
     </properties>
@@ -43,8 +42,8 @@
         <dependency>
             <groupId>javax.validation</groupId>
             <artifactId>validation-api</artifactId>
-            <version>2.0.1.Final</version> 
-          </dependency>
+            <version>2.0.1.Final</version>
+        </dependency>
         <dependency>
             <groupId>com.github.oshi</groupId>
             <artifactId>oshi-core</artifactId>
@@ -69,6 +68,14 @@
             <groupId>org.ini4j</groupId>
             <artifactId>ini4j</artifactId>
             <version>${ini4jVersion}</version>
+        </dependency>
+
+        <!-- 开发 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
